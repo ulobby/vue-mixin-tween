@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukechinworth/vue-mixin-tween.git"
+    "url": "git+https://github.com/ulobby/vue-mixin-tween.git"
   },
   "keywords": [
     "vue",
@@ -17,9 +17,9 @@
   "author": "Luke Chinworth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukechinworth/vue-mixin-tween/issues"
+    "url": "https://github.com/ulobby/vue-mixin-tween/issues"
   },
-  "homepage": "https://github.com/lukechinworth/vue-mixin-tween#readme",
+  "homepage": "https://github.com/ulobby/vue-mixin-tween#readme",
   "dependencies": {
     "@tweenjs/tween.js": "^17.1.1"
   }
