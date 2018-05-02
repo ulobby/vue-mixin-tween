@@ -1,6 +1,6 @@
 import TWEEN from '@tweenjs/tween.js';
 
-export default (propName, duration = 500, ease = TWEEN.Easing.Quadratic.Out, callback = () => null) => {
+export default (propName, duration = 500, ease = TWEEN.Easing.Quadratic.Out, callback = null) => {
     const propNameTween = `${propName}Tween`;
 
     return {
@@ -22,7 +22,7 @@ export default (propName, duration = 500, ease = TWEEN.Easing.Quadratic.Out, cal
                     .onUpdate(tween => {
                         this[propNameTween] = tween.number;
                     })
-                    .onCompleted(callback)
+                    .onComplete(this[callback])
                     .start();
 
                 animate();
